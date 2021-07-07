@@ -40,6 +40,7 @@ public class WhenUsingFluentWaits {
     }
 
     @Test
+
     public void with_an_element_that_is_eventually_enabled() {
         pageWithWaits.waitAndClick();
         assertThat(pageWithWaits.buttonThatIsEnabledLater.getText()).isEqualTo("Clicked!");
